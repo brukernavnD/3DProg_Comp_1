@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+*.sln
+Libraries/include/glm/doc/
+Libraries/include/glm/tests/
+*.yml
+*.cmake
+Libraries/include/glm/CMakeLists.txt
+*.cmake
