@@ -13,7 +13,7 @@ std::string Shaders::GetVertexShader()
 	std::stringstream VertexShaderStream;
 
 	//open the file
-	VertexShaderFile.open("C:/School/2024-2025/3D-Programming/Compulsories/Compulsory 1/ShaderData/VertexShaderSource.shadersourcecode");
+	VertexShaderFile.open("VertexShaderSource.shadersourcecode");
 
 	//read the file's buffer contents into streams
 	VertexShaderStream << VertexShaderFile.rdbuf();
@@ -38,7 +38,7 @@ std::string Shaders::GetFragmentShader()
 	std::stringstream FragmentShaderStream;
 
 	//open the file
-	FragmentShaderFile.open("C:/School/2024-2025/3D-Programming/Compulsories/Compulsory 1/ShaderData/FragmentShaderSource.shadersourcecode");
+	FragmentShaderFile.open("FragmentShaderSource.shadersourcecode");
 
 	//read the file's buffer contents into streams
 	FragmentShaderStream << FragmentShaderFile.rdbuf();

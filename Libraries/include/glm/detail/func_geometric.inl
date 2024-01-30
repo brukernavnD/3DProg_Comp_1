@@ -1,3 +1,4 @@
+#pragma once
 #include "../exponential.hpp"
 #include "../common.hpp"
 
